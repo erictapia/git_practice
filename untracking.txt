@@ -1,0 +1,9 @@
+I will commit this file and custom_venv.
+
+Then I will add custom_venv to the .gitignore file and commit it.
+
+Finally I untrack custom_venv with the following commands:
+git rm -r --cached .
+git add .
+git commit -n "Fixed tracking, now using .gitignore fix"
+ 
