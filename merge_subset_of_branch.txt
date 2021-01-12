@@ -1,0 +1,12 @@
+---
+
+source_branch - the branch with the file(s) to be merged to a target.
+
+target_branch - the branch where file(s) will be merged too.
+
+# Checkout target branch
+git checkout target_branch
+
+# Merge subset of branch files
+git checkout source_branch file1 file2 ... filen
+
